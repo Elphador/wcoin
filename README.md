@@ -1,2 +1,2 @@
 # wcoin
-a tool that help to get unlimited amount of wcoin airdrop
+a tool that helps to get unlimited amount of wcoin airdrop
